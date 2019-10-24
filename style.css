@@ -1,0 +1,77 @@
+body{
+	background-color: #3CB371;
+}
+
+.middle{
+	border-radius: 5px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+.task-list{
+	width: 600px;
+	height: 450px;
+	
+	background:white;
+	background-size: cover;
+	overflow: hidden;
+}
+h1{
+
+	width: 40px;
+	height: 30px;
+	margin-left: 40px;
+}
+img{
+	float: left;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	margin-top: -45px;
+	margin-left: 450px;
+	transition: width -5s;
+
+	
+}
+/*.dot1:hover{
+	width: 40px;
+	height: 40px;
+	background-color: red;
+}*/
+.dot {
+	height: 55px;
+    width: 55px;
+   
+    border-radius: 50%;
+    
+    margin-top: -38px;
+	margin-left: 440px;
+	transition: width 5s;
+}
+.dot:hover{
+	width: 55px;
+	
+	background-color:#eee;
+}
+a{
+	color: #DCDCDC;
+	margin-left: 40px;
+}
+h3{
+	margin-left: 40px;
+}
+p{
+	margin-top: -20px;
+	margin-left: 440px;
+
+}
+.velik {
+	margin-top: -110px;
+	width:580px;
+	height: 500px;
+	margin-left: 10px;
+
+}
+
